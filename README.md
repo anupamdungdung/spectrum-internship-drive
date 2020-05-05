@@ -1,2 +1,2 @@
-# spectrum-internship-drive
-This repository is for interns who have applied for Spectrum Internship Drive.
+Name: Anupam Dung Dung  
+Regn. No.: 1801106100
