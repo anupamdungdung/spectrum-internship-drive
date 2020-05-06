@@ -21,17 +21,17 @@ body{
 .map{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    margin-left: 370px;
+    
 }
 
 .lowergroup{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     position: relative;
-    bottom: 40px;
-    left: 742px;
-    top: 100px;
-    
+    right:370px;
+    top:588px;
 }
 
 .lowergroup .stairsright{
@@ -196,7 +196,7 @@ color: white;}
           background-color: #b97a57;
             display: flex;
             height: 88px;
-            width: 110px;
+            width: 112px;
             justify-content: center;
             color: white;
           }
@@ -204,7 +204,7 @@ color: white;}
         .map .internal1 .flex-container2 .group1 .staffroom{
             background-color: #00b3ff;
             height: 168px;
-            width: 110px;
+            width: 112px;
             color: white;
         }
 
@@ -222,6 +222,7 @@ color: white;}
     }
     .map .internal2{
         width: 247px;
+        height: 586px;
     }
 
         .map .internal2 .flex-container{

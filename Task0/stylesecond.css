@@ -21,16 +21,16 @@ body{
 .map{
     display: flex;
     justify-content: center;
+    margin-left: 370px;
+
 }
 
 .lowergroup{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     position: relative;
-    bottom: 40px;
-    left: 745px;
-    top: 98px;
+    right:370px;
+    top:588px;
     
 }
 

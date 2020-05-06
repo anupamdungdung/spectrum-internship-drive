@@ -20,16 +20,17 @@ body{
 .map{
     display: flex;
     justify-content: center;
+    margin-left: 376px;
 }
+
+
 
 .lowergroup{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    position: relative;
-    bottom: 40px;
-    left: 742px;
-    top: 90px;
+     position: relative;
+    right:370px;
+    top:580px;
     
 }
 
@@ -225,6 +226,7 @@ border: 3px solid black;
     }
     .map .internal2{
         width: 246px;
+        height:520px;
     }
 
         .map .internal2 .flex-container{
