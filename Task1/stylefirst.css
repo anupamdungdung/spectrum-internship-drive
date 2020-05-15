@@ -1,0 +1,580 @@
+body{
+  background: rgb(0,255,157);
+  background: linear-gradient(90deg, rgba(0,255,157,1) 0%, rgba(0,117,255,1) 100%);
+       
+        height:700px;
+    
+    }
+    
+    .font{
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:18px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.map{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 370px;
+    
+}
+
+.lowergroup{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    right:370px;
+    top:588px;
+    height:102px;
+}
+
+.lowergroup .stairsright{
+    background-color: #ed1b24;
+    display: flex;
+    justify-content: center;
+    width: 66px;
+    height: 98px;
+    
+}
+.lowergroup .reading{
+    width: 122px;
+    background-color: #00b3ff;
+    display: flex;
+    justify-content: center;
+    height: 98px;
+    color: white;
+    
+}
+
+.lowergroup .library{
+    width:166px;
+    background-color: #00b3ff;
+    display: flex;
+        justify-content: center;
+        height: 98px;
+        color: white;
+}
+
+.lowergroup >div{
+width: 50px;
+height:80px;
+background-color: #00b3ff;
+border: 3px solid black;
+color: white;}
+
+.lowergroup >div>p{
+    font-family: 'Lobster', cursive;
+    margin: auto;
+    font-size: 20px;
+    color: #ffffff;
+}
+.lowergroup >div:hover{
+    text-shadow: 0 0 10px rgba(255,255,255,1);
+    box-shadow:inset 0 0 20px rgba(0,0,0,.2),0 0 20px rgba(0,0,0,.3);
+    outline-color: rgba(0, 0, 0, 0);
+    outline-offset: 30px;
+}
+
+
+.map{
+    display: flex;
+    flex-direction: row;
+    height: 490px;
+
+
+}
+.map .internal1{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.map .internal1 .flex-container {
+    display: flex;
+    width: 340px;
+    height: 368px;  
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-left: 3px solid black;
+    border-top: 3px solid black;
+    background: rgb(255,0,70);
+    justify-content: space-between;
+    margin-left: 54px;
+     }
+
+.flex-container .group1>div {
+    background-color: #ff6900;
+    color: white;    
+    font-size: 20px;    
+    box-sizing: border-box;
+    width: 100px;
+    height:98px;
+    border: 3px solid black ;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .map .internal1 .flex-container .group1>div:hover{
+    text-shadow: 0 0 10px rgba(255,255,255,1);
+    box-shadow:inset 0 0 20px rgba(0,0,0,.2),0 0 20px rgba(0,0,0,.3);
+    outline-color: rgba(0, 0, 0, 0);
+    outline-offset: 30px;
+}
+.map .internal1 .flex-container .group1>div>p{
+    font-family: 'Lobster', cursive;
+    margin: auto;
+  }
+
+  .map .internal1 .flex-container .group1 .classroom1{
+      height: 98px;
+      width: 110px;
+    }
+    .map .internal1 .flex-container .group1 .classroom2{
+        height: 104px;
+        width: 110px;
+      }
+  .map .internal1 .flex-container .group1 .clsroom{
+      height: 100px;
+      width: 110px;
+  }
+
+  .map .internal1 .flex-container .group1 .stairs{
+      font-weight: 500;
+      height: 40px;
+      
+    background-color: #ed1b24;
+  }
+
+  .flex-container .group2>div {
+    background-color: #ff6900;
+    color: white;
+    text-align: center;
+    font-size: 20px; 
+    text-align: center;
+    width: 100px;
+    box-sizing: border-box;
+    height: 80px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    transition: all .1s;
+  }
+  .map .internal1 .flex-container .group2>div:hover{
+    text-shadow: 0 0 10px rgba(255,255,255,1);
+    box-shadow:inset 0 0 20px rgba(0,0,0,.2),0 0 20px rgba(0,0,0,.3);
+    outline-color: rgba(0, 0, 0, 0);
+    outline-offset: 30px;
+}
+.map .internal1 .flex-container .group2>div>p{
+    font-family: 'Lobster', cursive;
+    margin: auto;
+  }
+
+  .map .internal1 .flex-container .group2 .lab{
+    height:167px;
+    font-size: 20px;
+    background-color: #00b3ff;
+    width: 120px;
+}
+.map .internal1 .flex-container .group2 .classroom3{
+    height: 100px;
+    width: 120px;
+}
+.map .internal1 .flex-container .group2 .classroom4{
+    height: 102px;width: 120px;
+}
+
+.map .internal1 .flex-container2{
+    
+    display: flex;
+
+    width: 405px;
+    height: 300px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-left: .2px solid white;
+    justify-content: space-between;
+    margin-left: 54px;
+    border-bottom: 3px solid black;
+    background: rgb(255,0,70);
+    }
+
+    .map .internal1 .flex-container2 .group1{
+       display: flex;
+       flex-direction: column;
+   }
+   .map .internal1 .flex-container2 .group1>div {
+    background-color: turquoise;
+    color: rgb(160, 152, 152);
+    text-align: center;
+    font-size: 30px;
+    text-align: center;
+    width: 100px;
+    height: 80px;
+    box-sizing: border-box;
+    border: 3px solid black ;
+    transition: all .1s;
+  }
+  .map .internal1 .flex-container2 .group1>div{
+      font-size: 20px;
+     text-align: center;
+    }
+    .map .internal1 .flex-container2 .group1>div:hover{
+        text-shadow: 0 0 10px rgba(255,255,255,1);
+        box-shadow:inset 0 0 20px rgba(0,0,0,.2),0 0 20px rgba(0,0,0,.3);
+        outline-color: rgba(0, 0, 0, 0);
+        outline-offset: 30px;
+    }
+    .map .internal1 .flex-container2 .group1>div>p{
+        font-family: 'Lobster', cursive;
+        margin: auto;
+        font-size: 20px;
+    }
+
+      .map .internal1 .flex-container2 .group1 .washroom{
+          
+          background-color: #b97a57;
+            display: flex;
+            height: 88px;
+            width: 112px;
+            justify-content: center;
+            color: white;
+          }
+
+        .map .internal1 .flex-container2 .group1 .staffroom{
+            background-color: #00b3ff;
+            height: 168px;
+            width: 112px;
+            color: white;
+        }
+        .map .internal1 .flex-container2 .group1 .staffroom>p{
+            margin-top: 45px;
+        }
+
+      .map .internal1 .flex-container2 .group2 .openspace{
+        background-color:#d8ff00;
+        color: black;
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        width: 176px;
+        height: 160px;
+        border: 3px solid black;
+        font-weight: 500;
+        
+    }
+    .map .internal1 .flex-container2 .group2 .openspace p{
+        font-family: 'Lobster', cursive;
+        margin: auto;
+        font-size: 25px;
+    }
+    .map .internal2{
+        width: 247px;
+        height: 586px;
+    }
+
+        .map .internal2 .flex-container{
+            margin-top: 15px;
+            height: 256px;
+            width: 246px;
+            border: none;
+            display: flex;
+            border-right: 3px solid black;
+            background: rgb(255,0,70);
+            
+        }
+
+        .map .internal2 .flex-container .group1 .pno{
+            height: 160px;
+            background-color: #00b3ff;
+            display: flex;
+    
+            font-size: 20px;
+            width: 248px;
+         
+        }
+        .map .internal2 .flex-container .group1 .pno:hover{
+            text-shadow: 0 0 10px rgba(255,255,255,1);
+            box-shadow:inset 0 0 20px rgba(0,0,0,.2),0 0 20px rgba(0,0,0,.3);
+            outline-color: rgba(0, 0, 0, 0);
+            outline-offset: 30px;
+        }
+
+        
+
+        .map .internal1 .flex-container .group1 .stairs {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            height: 75px;
+            width: 110px;
+        }
+        .map .internal2 .flex-container .group1 .pno p{
+            font-family: 'Lobster', cursive;
+    margin-left: 15px;
+    margin-top: 50px;
+    font-size: 25px;
+        }
+ 
+         .map .internal1 .flex-container .group1 .stairs p{
+             font-size: 15px;
+             
+             
+         }
+ 
+         .map .internal1 .flex-container .group1 .stairs img{
+             margin:auto;
+         }
+ 
+         .lowergroup .stairsright{
+             display: flex;
+             flex-direction: column;
+             justify-content: start;
+             
+         
+         }
+         .lowergroup .stairsright p{
+             font-size: 15px;
+             margin: auto;
+             font-weight: 500;
+         }
+          
+ 
+          .lowergroup .stairsright #up2{
+              margin-top: 10px;
+              margin-left: 25px;
+          }
+          .lowergroup .stairsright #down2{
+             margin-bottom: 8px;
+             margin-left: 25px;
+         }
+         .board{
+            height:278px;
+            width: 390px;
+            background-color:#ffffff;
+           border: 10px solid black;
+           text-transform: capitalize;
+           display: flex;
+           justify-content: center;
+           
+        }
+
+        .board p{
+           font-family: 'Lobster', cursive;
+           margin: auto;
+           font-size: 50px;
+            
+        }
+        .board2{
+            border:8px solid black;
+            margin-top: 3px;
+            height: 41px;
+            width: 227px;
+            margin-left: 145px;
+            background-color:#ffffff;
+            display: flex;
+           justify-content: center;
+        }
+
+        .board2 p{
+           font-family: 'Lobster', cursive;
+           margin: auto;
+           font-size: 18px;
+        }
+
+        @-webkit-keyframes hvr-back-pulse {
+            50% {
+               background-color: #ff1b70;
+            }
+          }
+          @keyframes hvr-back-pulse {
+            50% {
+                background-color: #ff1b70;
+            }
+          }
+          .hvr-back-pulse {
+            display: inline-block;
+            vertical-align: middle;
+            -webkit-transform: perspective(1px) translateZ(0);
+            transform: perspective(1px) translateZ(0);
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+            overflow: hidden;
+            -webkit-transition-duration: 0.25s;
+            transition-duration: 0.25s;
+            -webkit-transition-property: color, background-color;
+            transition-property: color, background-color;
+          }
+          .hvr-back-pulse:hover, .hvr-back-pulse:focus, .hvr-back-pulse:active {
+            -webkit-animation-name: hvr-back-pulse;
+            animation-name: hvr-back-pulse;
+            -webkit-animation-duration: 0.25s;
+            animation-duration: 0.25s;
+            -webkit-animation-delay: 0.25s;
+            animation-delay: 0.25s;
+            -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+            -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+            background-color: #ff0000;
+            background-color: #ff0000;
+            color: white;
+          }
+
+          @-webkit-keyframes hvr-back-pulse2 {
+            50% {
+               background-color: #532d0b;
+            }
+          }
+          @keyframes hvr-back-pulse2 {
+            50% {
+                background-color: #532d0b;
+            }
+          }
+          .hvr-back-pulse2 {
+            display: inline-block;
+            vertical-align: middle;
+            -webkit-transform: perspective(1px) translateZ(0);
+            transform: perspective(1px) translateZ(0);
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+            overflow: hidden;
+            -webkit-transition-duration: 0.25s;
+            transition-duration: 0.25s;
+            -webkit-transition-property: color, background-color;
+            transition-property: color, background-color;
+          }
+          .hvr-back-pulse2:hover, .hvr-back-pulse2:focus, .hvr-back-pulse2:active {
+            -webkit-animation-name: hvr-back-pulse2;
+            animation-name: hvr-back-pulse2;
+            -webkit-animation-duration: 0.25s;
+            animation-duration: 0.25s;
+            -webkit-animation-delay: 0.25s;
+            animation-delay: 0.25s;
+            -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+            -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+            background-color: #532d0b;
+            background-color: #532d0b;
+            color: white;
+          }
+          @-webkit-keyframes hvr-back-pulse3 {
+            50% {
+               background-color: #ff0079;
+            }
+          }
+          @keyframes hvr-back-pulse3 {
+            50% {
+                background-color: #ff0079;
+            }
+          }
+          .hvr-back-pulse3 {
+            display: inline-block;
+            vertical-align: middle;
+            -webkit-transform: perspective(1px) translateZ(0);
+            transform: perspective(1px) translateZ(0);
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+            overflow: hidden;
+            -webkit-transition-duration: 0.25s;
+            transition-duration: 0.25s;
+            -webkit-transition-property: color, background-color;
+            transition-property: color, background-color;
+          }
+          .hvr-back-pulse3:hover, .hvr-back-pulse3:focus, .hvr-back-pulse3:active {
+            -webkit-animation-name: hvr-back-pulse3;
+            animation-name: hvr-back-pulse3;
+            -webkit-animation-duration: 0.25s;
+            animation-duration: 0.25s;
+            -webkit-animation-delay: 0.25s;
+            animation-delay: 0.25s;
+            -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+            -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+            background-color: #ed1b24;
+            background-color: #ed1b24;
+            color: white;
+          }
+          @-webkit-keyframes hvr-back-pulse4 {
+            50% {
+               background-color: #249d0e;
+            }
+          }
+          @keyframes hvr-back-pulse4 {
+            50% {
+                background-color: #249d0e;
+            }
+          }
+          .hvr-back-pulse4 {
+            display: inline-block;
+            vertical-align: middle;
+            -webkit-transform: perspective(1px) translateZ(0);
+            transform: perspective(1px) translateZ(0);
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+            overflow: hidden;
+            -webkit-transition-duration: 0.25s;
+            transition-duration: 0.25s;
+            -webkit-transition-property: color, background-color;
+            transition-property: color, background-color;
+          }
+          .hvr-back-pulse4:hover, .hvr-back-pulse4:focus, .hvr-back-pulse4:active {
+            -webkit-animation-name: hvr-back-pulse4;
+            animation-name: hvr-back-pulse4;
+            -webkit-animation-duration: 0.25s;
+            animation-duration: 0.25s;
+            -webkit-animation-delay: 0.25s;
+            animation-delay: 0.25s;
+            -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+            -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+            background-color: #ed1b24;
+            background-color: #ed1b24;
+            color: white;
+          }
+          @-webkit-keyframes hvr-back-pulse5 {
+            50% {
+               background-color: #17288f;
+            }
+          }
+          @keyframes hvr-back-pulse5 {
+            50% {
+                background-color: #17288f;
+            }
+          }
+          .hvr-back-pulse5 {
+            display: inline-block;
+            vertical-align: middle;
+            -webkit-transform: perspective(1px) translateZ(0);
+            transform: perspective(1px) translateZ(0);
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+            overflow: hidden;
+            -webkit-transition-duration: 0.25s;
+            transition-duration: 0.25s;
+            -webkit-transition-property: color, background-color;
+            transition-property: color, background-color;
+          }
+          .hvr-back-pulse5:hover, .hvr-back-pulse5:focus, .hvr-back-pulse5:active {
+            -webkit-animation-name: hvr-back-pulse5;
+            animation-name: hvr-back-pulse5;
+            -webkit-animation-duration: 0.25s;
+            animation-duration: 0.25s;
+            -webkit-animation-delay: 0.25s;
+            animation-delay: 0.25s;
+            -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+            -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+            background-color: #00b3ff;
+            background-color: #00b3ff;
+            color: white;
+          }
+
+
+        
